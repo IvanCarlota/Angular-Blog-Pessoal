@@ -10,6 +10,9 @@ import { Subscriber } from 'rxjs';
 })
 export class FeedComponent implements OnInit {
 
+  key = 'data'
+  reverse = true
+
   listaPostagens: Postagem []
   postagem: Postagem = new Postagem
 
